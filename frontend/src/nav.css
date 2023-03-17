@@ -1,0 +1,55 @@
+.navbutton {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 15.25vw;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 31.5vw;
+    border-radius: 10px;
+    border-width: 0;
+    padding-right: 2px;
+    z-index: 4;
+  }
+  
+  .navbutton.active {
+    background-color: aqua;
+  }
+
+.navbutton.one {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 15.25vw;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 0.5vw;
+    border-radius: 10px;
+    border-width: 0;
+    padding-right: 2px;
+    z-index: 4;
+  }
+
+.navbutton.two {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 15.25vw;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 16vw;
+    border-radius: 10px;
+    border-width: 0;
+    padding-right: 2px;
+    z-index: 4;
+  }
+
+.content {
+    display: block;
+    font-size: large;
+    margin-top: 7vh;
+    margin-left: 2vw;
+    position: absolute;
+    width: 46vw;
+    height: 90vh;
+}

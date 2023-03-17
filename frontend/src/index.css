@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+html, body{
+  z-index: 1;
+  height: 100vh;
+} 
+
+#map {
+  min-width: 99.25vw;
+  min-height: 99vh;
+  margin: auto;
+  padding: 0.5vh 0 0 0;
+  border-radius: 10px;
+}
+
+#map > ymaps {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.desc.active{
+  transform: scale(1);
+  position: absolute;
+  z-index: 4;
+}
+
+.desc {
+  transform: scale(0);
+  position: absolute;
+  z-index: 4;
+}
+
+
+.description {
+  transform: scale(0);
+  border-radius: 15px;
+  background: aqua;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 20vw;
+  height: 94vh;
+  z-index: 4;
+}
+
+
+.description.active {
+  transform: scale(1);
+  border-radius: 15px;
+  position: absolute;
+  background: aqua;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 50vw;
+  height: 94vh;
+  z-index: 4;
+}
+
+.closeButton {
+  display: block;
+  position: absolute;
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border-width: 0;
+  padding-right: 2px;
+  z-index: 4;
+  background-color:powderblue;
+}
+
+.closeButton.active {
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-left: 51vw;
+  margin-top: 2vh;
+  border-radius: 10px;
+  border-width: 0;
+  padding-right: 2px;
+  z-index: 4;
+}
+
+
+.exitButton {
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-left: 47vw;
+  margin-top: 1vh;
+  border-radius: 10px;
+  border-width: 0;
+  padding-right: 2px;
+  z-index: 4;
+  
+}
+
+
+.description.active p {
+  display: block;
+  position: absolute;
+}
+
+.languageButton {
+  background-color: plum;
+  display: block;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-left: 96.5vw;
+  margin-top: 0.5vh;
+  border-radius: 10px;
+  border-width: 0;
+  padding-right: 2px;
+  z-index: 4;
+}
+

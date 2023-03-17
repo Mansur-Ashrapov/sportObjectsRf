@@ -1,0 +1,72 @@
+
+
+.names {
+    margin-top: 35vh;
+    margin-left: 13vw;
+    font-size: x-large;
+}
+
+.diagramm {
+    transform: scale(0);
+    border-radius: 15px;
+    background: aqua;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20vw;
+    height: 94vh;
+    z-index: 4;
+  }
+  
+.diagramm p {
+    margin-left: 16vw;
+    margin-top: 1vh;
+    font-size: x-large;
+  }
+.names p {
+    margin-left: 1vw;
+    margin-top: 1vh;
+    font-size: x-large;
+  }
+
+
+.diagramm.active {
+    transform: scale(1);
+    border-radius: 15px;
+    position: absolute;
+    background: aqua;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50vw;
+    height: 94vh;
+    z-index: 4;
+  }
+  
+.dbutton {
+    display: block;
+    position: absolute;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    padding-right: 2px;
+    z-index: 4;
+    background-color:powderblue;
+  }
+  
+.dbutton.active {
+    transform: scale(1);
+    display: block;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 51vw;
+    margin-top: 1vh;
+    border-radius: 10px;
+    border-width: 0;
+    padding-right: 2px;
+    z-index: 4;
+  }
